@@ -1,10 +1,10 @@
 import React from 'react';
 import './scss/main.scss';
-import Navbar from './components/Navbar/Navbar';
+import Navbar from './components/Navbar/Navbar.js';
 import Landing from './components/Home/Landing.js';
-function App() {
+const App = () => {
   return (
-    <div className="App">
+    <div>
       <Navbar />
       <Landing />
     </div>
