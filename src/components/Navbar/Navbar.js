@@ -6,10 +6,10 @@ function Navbar() {
     <nav className="navbar">
       <h3 className="logo">SECONONU</h3>
       <ul className="nav-links">
-    <Link to="/" className="home">
+    <Link to="/home" className="home">
       <li>Home</li>
     </Link>
-    <Link to="/" className="about">
+    <Link to="/about" className="about">
       <li>About</li>
     </Link>
       </ul>

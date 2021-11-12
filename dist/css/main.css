@@ -132,4 +132,22 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 75px;
+  background-color: aqua;
+  color: white;
+}
+
+.Logo {
+  font-size: 30px;
+}
 /*# sourceMappingURL=main.css.map */
